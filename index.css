@@ -8,6 +8,8 @@ body {
 .top-row-container {
   display: flex;
   justify-content: space-evenly;
+  width: 100vw;
+
 }
 
 .top-row-items {
@@ -19,8 +21,15 @@ body {
   cursor: pointer;
 }
 
-#signup.hover{
-  background: rgb(0, 0, 0);
+#signup:hover{
+  background: rgba(205, 200, 200, 0.061);
+  transition: 0.4s;
+  color: #e0832cf1;
+}
+#login:hover{
+  background: rgba(205, 200, 200, 0.061);
+  transition: 0.4s;
+  color: #e0832cf1;
 }
 
 .items {
